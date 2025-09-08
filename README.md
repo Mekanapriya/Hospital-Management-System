@@ -1,4 +1,12 @@
 # Hospital-Management-System
+  #----OVERVIEW-------
+The Hospital Management System (HMS) is a full-stack web application designed to manage hospital operations digitally.
+It helps in managing patients, doctors, appointments, and prescriptions in a centralized system.
+The project has two main parts:
+Backend (Flask + SQLite) → Provides REST APIs to manage hospital data.
+Frontend (React) → A user interface for hospital staff to interact with the system.
+
+
 import React, { useEffect, useState } from "react";
 
 const API = "http://127.0.0.1:5000";
@@ -376,6 +384,10 @@ def not_found(e):
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
+
+    #-----CONCLUSION---------
+    The Hospital Management System successfully demonstrates how modern web technologies can be applied to digitize hospital operations. By integrating a Flask backend, React frontend, and SQL database, the system provides an efficient way to manage patients, doctors, appointments, and prescriptions in a centralized platform.
+The project simplifies day-to-day hospital activities such as patient registration, doctor scheduling, and appointment tracking, reducing manual effort and chances of error. It also ensures that records are easily accessible, structured, and securely stored.
+
 
     
